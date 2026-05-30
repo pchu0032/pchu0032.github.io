@@ -1,14 +1,29 @@
 body{
-    background-color: #ff4000;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
 }
 
 @font-face {
     font-family:"sf pro";
     src: url('sf-pro.woff') format('woff');
 }
-
-h1 {
+div.title {
     font-family: "louvette-pixel", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    font-size: 250px;
+    text-align: center;
+    width: 100%;
+    line-height: 0.9;
+}
+
+div.content{
+    font-size: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+    Margin-top: 100px;
+    font-family: "sf pro", sans-serif;
+}
+div.quote{
+    font-size: 30px;
+    text-align: center;
 }
