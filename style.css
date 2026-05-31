@@ -4,6 +4,11 @@ body{
     margin: 0;
 }
 
+img{
+    width: 100%;
+    display: block;
+}
+
 @font-face {
     font-family:"sf pro";
     src: url('sf-pro.woff') format('woff');
@@ -15,15 +20,19 @@ div.title {
     width: 100%;
     line-height: 0.9;
 }
-
-div.content{
-    font-size: 20px;
-    margin-bottom: 100px;
-    text-align: center;
-    Margin-top: 100px;
-    font-family: "sf pro", sans-serif;
-}
 div.quote{
     font-size: 30px;
     text-align: center;
+}
+
+div.width25{
+    width: 25%;
+}
+
+div.width50{
+    width: 50%;
+}
+
+div.width75{
+    width: 75%;
 }
