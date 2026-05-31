@@ -1,18 +1,14 @@
-body{
+body {
     background-color: #ffffff;
     padding: 0;
     margin: 0;
 }
 
-img{
+img {
     width: 100%;
     display: block;
 }
 
-@font-face {
-    font-family:"sf pro";
-    src: url('sf-pro.woff') format('woff');
-}
 div.title {
     font-family: "louvette-pixel", sans-serif;
     font-size: 250px;
@@ -20,19 +16,13 @@ div.title {
     width: 100%;
     line-height: 0.9;
 }
-div.quote{
+
+div.quote {
     font-size: 30px;
     text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
 }
 
-div.width25{
-    width: 25%;
-}
-
-div.width50{
-    width: 50%;
-}
-
-div.width75{
-    width: 75%;
-}
+div.width25 { width: 25%; }
+div.width50 { width: 50%; }
+div.width75 { width: 75%; }
