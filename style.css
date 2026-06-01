@@ -15,6 +15,7 @@ div.title {
     text-align: center;
     width: 100%;
     line-height: 0.9;
+    margin-bottom: 20px;
 }
 
 div.quote {
@@ -23,6 +24,15 @@ div.quote {
     font-family: trebuchet-ms, sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+div.text {
+    font-size: 20px;
+    font-family: trebuchet-ms, sans-serif;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: red;
 }
 
 div.width25 { width: 25%; }
