@@ -28,8 +28,10 @@ div.quote {
 
 div.icon{
     font-family: trebuchet-ms, sans-serif;
-    font-size: 10px
+    font-size: 30px;
+    color:blue;
 }
+
 
 div.width25 { width: 25%; }
 div.width50 { width: 50%; }
