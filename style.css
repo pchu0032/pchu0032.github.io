@@ -26,13 +26,9 @@ div.quote {
     font-style: normal;
 }
 
-div.text {
-    font-size: 20px;
+div.icon{
     font-family: trebuchet-ms, sans-serif;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    color: red;
+    font-size: 10px
 }
 
 div.width25 { width: 25%; }
