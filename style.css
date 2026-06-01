@@ -30,6 +30,13 @@ div.icon{
     font-family: trebuchet-ms, sans-serif;
     font-size: 10px;
     color:blue;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 
