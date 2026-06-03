@@ -16,7 +16,7 @@ div{
 
 div.title {
     font-family: "trebuchet-ms", sans-serif;
-    font-size: 300px;
+    font-size: 330px;
     text-align: center;
     width: 100%;
     line-height: 0.9;
@@ -70,6 +70,7 @@ div.container {
     margin-left: 200px;
     max-width: 900px;
     margin: 0 auto;
+    margin-top: 150px;
 }
 
 div.text {
@@ -88,15 +89,36 @@ div.label{
     margin-top: 20px;
 }
 
-div.bracketed {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    max-width: 1100px;
-    margin: 40px auto;
-    font-family: trebuchet-ms, sans-serif;
-    font-size: 100px;
-    color: #0000ff;
+div.function{ 
+    font-family: "trebuchet-ms", sans-serif;
+    font-size: 200px;
+    text-align: center;
+    width: 100%;
+    line-height: 0.9;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+div.intro{
+   
+    margin-left: 400px;
+    margin-right: auto;
+    font-family: "trebuchet-ms", sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+  
+div.right {
+    font-family: "trebuchet-ms", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 700px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+div.right ol {
+    padding-left: 30px;
 }
 
 div.body{
@@ -106,8 +128,7 @@ div.body{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 60px;
-    margin-top: 60px;
+    margin-top: 150px;
     line-height: 1.5;
     max-width: 900px;
 }
@@ -117,58 +138,29 @@ div.title2 {
     font-family: "trebuchet-ms", sans-serif;
     font-weight: bold;
     font-size: 50px;
+    text-align: center;
+    width: 100%;
+    line-height: 0.9;
+    margin-top: 150px;
+    margin-bottom: auto;
+}
+
+div.entry{
+    font-family: "trebuchet-ms", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
     text-align: left;
     width: 100%;
     line-height: 0.9;
     margin-bottom: auto;
     margin-top: 150px;
-    margin-left: 150px;
+    margin-left: 300px;
 }
-
-div.flow {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
-  margin-left: 200px;
-  max-width: 900px;
-  margin: 0 auto;
-  font-family: louvette-pixel, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 20px;
-  color:#0000ff;
-}
-
-div.flow img {
-  height: 40px;
-  width: auto;
-}
-div.flow img:hover {
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-
-div.quote2 {
-    font-family: trebuchet-ms, sans-serif;
-    font-size: 100px;
-    text-align: center;
-    color: #0000ff;
-    -webkit-text-stroke: 2px yellow;
-    stroke-width: 5px;
-    text-shadow: 2px 2px 4px rgb(255, 0, 0);
-}
-
-div.width25 { width: 25%; }
-div.width50 { width: 50%; }
-div.width75 { width: 75%; }
-
 
 
 div.entry {
-    margin-bottom: 80px;
-    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-left: 300px;
 }
 
 div.num {
@@ -207,3 +199,103 @@ div.info a {
 div.info p {
     margin-top: 5px;
 }
+
+div.entry-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+div.entry-section .entry-section-title {
+    font-family: "trebuchet-ms", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+div.entry-table {
+    width: 100%;
+}
+
+div.entry-headers {
+    display: grid;
+    grid-template-columns: 80px 2fr 2fr 2fr;
+    gap: 20px;
+    font-family: "louvette-pixel", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+a.entry-row {
+    display: grid;
+    grid-template-columns: 80px 2fr 2fr 2fr;
+    gap: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "trebuchet-ms", sans-serif;
+    font-size: 22px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #000000;
+}
+
+a.entry-row:hover {
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+div.vertical-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: "trebuchet-ms", sans-serif;
+    font-size: 20px;
+    color: #0000ff;
+}
+
+div.ending {
+    font-family: trebuchet-ms, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: #0000ff;
+}
+
+
+div.colophon {
+    flex: 1;
+    font-family: "trebuchet-ms", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 300px;
+    margin-bottom: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.colophon .colophon-title {
+    font-family: "trebuchet-ms", sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.width25 { width: 25%; }
+div.width50 { width: 50%; }
+div.width75 { width: 75%; }
+
